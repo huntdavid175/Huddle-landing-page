@@ -1,3 +1,90 @@
 * {
-    background: green;
+    /* background: green; */
+    margin: 0;
+    box-sizing: border-box;
 }
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    background-image: url("images/bg-desktop.svg");
+    background-color: hsl(257, 40%, 49%); 
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.logo {
+    width: 100%;
+    padding: 50px 110px;
+}
+
+.logo img {
+    width: 200px;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.image-section {
+    width: 500px;
+}
+
+.text-section {
+    width: 600px;
+    padding: 80px 0px;
+}
+
+.text-section p {
+    padding: 30px 0px;
+}
+
+button {
+    padding: 20px 70px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 35px;
+    color: hsl(257, 40%, 49%);
+    cursor: pointer;
+    font-size: 18px;;
+}
+
+.social {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 100px;
+}
+
+.social ul {
+    display: flex;
+    list-style: none;
+}
+
+.social li  {
+    margin-left: 15px;
+}
+
+.social i {
+    text-align: center;
+    padding:10px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+.fab {
+    font-size: 25px;
+    color: #fff;
+}
+
+/* footer {
+    padding: 0px 30px;
+} */
